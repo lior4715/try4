@@ -1,0 +1,8 @@
+.taskList {
+    position: relative;
+    top: 350px;
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+    border: solid thin black;
+}

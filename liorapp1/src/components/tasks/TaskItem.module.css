@@ -1,0 +1,25 @@
+.taskItem {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+
+.taskItem .detailsBracket {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.taskItem .buttons {
+    display: flex;
+    gap: 50px;
+}
+
+.taskItem .buttons *{
+    scale: 1;
+}
+
+.taskItem .buttons .icon {
+    cursor: pointer;
+}

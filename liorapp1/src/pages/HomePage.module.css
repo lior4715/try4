@@ -1,0 +1,57 @@
+.pageName {
+    position: absolute;
+    top: 120px;
+    right: 50px;
+}
+
+.mainBracket {
+    position: relative;
+    top: 200px;
+    height: 300px;
+    width: 800px;
+    margin: auto;
+    border: solid thin black;
+}
+
+.weatherBracket {
+    position: relative;
+    top: 50px;
+    height: 100px;
+    width: 500px;
+    margin: auto;
+    border: solid thin black;
+}
+
+.weatherBracket {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.quoteBracket {
+    position: relative;
+    font-size: 12px;
+    font-style: italic;
+    align-items: center;
+    top: 100px;
+    width: 700px;
+    height: 60px;
+    margin: auto;
+    border: solid thin black;
+}
+
+.quoteBracket .author {
+    margin-top: 5px;
+}
+.taskButton {
+    position: absolute;
+    top: 280px;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+.search {
+    position: absolute;
+    top: 650px;
+    left: 450px;
+}

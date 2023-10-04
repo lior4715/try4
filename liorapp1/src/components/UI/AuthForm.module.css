@@ -1,0 +1,56 @@
+.authForm {
+    position: fixed;
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    box-shadow: 0px 0px 80px black;
+    border-radius: 12px;
+    z-index: 10;
+}
+
+.authForm .errors {
+    position: relative;
+    padding: 10px;
+    background-color: rgba(255, 0, 0, 0.3);
+    right: 10px;
+    width: 300px;
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+
+.authForm h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.credBracket {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.authForm .passBracket {
+    margin-top: 70px;
+
+}
+
+.credBracket label{
+    font-weight: bold;
+}
+
+.credBracket input {
+    width: 180px;
+    height: 25px;
+}
+
+.authForm .button {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+
